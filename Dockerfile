@@ -1,6 +1,6 @@
 FROM microsoft/aspnet:1.0.0-rc1-update1
 
-ENV HOME=/opt/app-root/src
+ENV HOME=/app
 
 
 RUN mkdir -p ${HOME} && \
